@@ -1,0 +1,9 @@
+main: com.voidcraftplays.ninjasrevenge.Main
+version: 1.0
+name: NinjasRevenge
+description: A Custom Spigot Minigame
+commands:
+  ninjasrevenge:
+    description: The main command for Ninja's Revenge
+    aliases: [nr]
+    

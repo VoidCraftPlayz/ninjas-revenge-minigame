@@ -1,0 +1,33 @@
+# Do not change this value! I have yet to implement a bungeecord version and this would break the plugin
+bungeecord: false
+
+# This section is for player stat tracking
+statistics:
+
+# These are all settings defined by the in-game command /nr setup. You do not have to change these unless you want to manually set it up
+# Defenders power should be less than ninja's power as there are less ninjas. These values affect every aspect of each respective team's power
+# The default power levels are relatively balanced but if you see ninja's winning multiple games in a row, I would suggest changing the values to
+# Ninjas: 8 and keep Defenders at 5, but you can obviously change them to something rediculous like 40 and 25
+# Values should, however, never go to something absolutely crazy like 30000 and 15000 because the sharpness and unbreaking enchantment
+# values would completely break, hence breaking the game and not allowing anyone to kill each other.
+# I would not suggest disabling any of the admin commands as they can be quite fun
+setup:
+  locations:
+    ninjas:
+    defenders:
+  settings: 
+    ninja-power: 10
+    defenders-power: 5
+  admin-commands:
+    developer-mode: true
+    setup: true
+    forcestart: true
+    event: true
+    troll: true
+    abuse: true
+    
+# These config variables are set by the plugin. You may change them but the plugin may break
+plugin:
+  players-joined:
+
+    
